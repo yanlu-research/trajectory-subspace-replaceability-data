@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-26T15:58:53.160510+00:00",
+  "python": "3.13.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "torch": "2.12.1",
+  "numpy": "2.4.6",
+  "intraop": 4,
+  "interop": 8,
+  "deterministic": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "git_revision": "d111196f493fa0635097ffe227e37bf9f558e4c0"
+}

@@ -1,0 +1,7 @@
+target,backend,lr,validation_ce,boundary_limited,candidate_count,A0_lr,Astar_alias_A0
+kmnist,ambient_adam,0.1,2.3773222684860227,False,6,0.001,False
+kmnist,projected_sgd,1.0,5.143183153470358,False,5,0.001,not applicable
+kmnist,coefficient_adam,0.1,5.1190012944539385,False,5,0.001,not applicable
+mnist,ambient_adam,0.01,3.9251210533777874,False,5,0.001,False
+mnist,projected_sgd,1.0,3.8560438855489094,False,5,0.001,not applicable
+mnist,coefficient_adam,0.1,3.9426663384437557,False,5,0.001,not applicable

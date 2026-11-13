@@ -1,0 +1,9 @@
+target,condition,partial_mean_minus_HT60_pp
+kmnist,A0,-2.866666666666665
+kmnist,Astar,7.7011111111111115
+kmnist,Sstar,-2.7688888888888883
+kmnist,Cstar,-1.7744444444444458
+mnist,A0,0.20555555555555807
+mnist,Astar,0.7711111111111085
+mnist,Sstar,-0.307777777777775
+mnist,Cstar,-3.837777777777781

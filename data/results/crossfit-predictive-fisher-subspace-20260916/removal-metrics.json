@@ -1,0 +1,782 @@
+[
+  {
+    "epoch": 1,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.1618195988795683,
+      "median": 0.9316659759239085,
+      "minimum": 0.5900826638868297,
+      "p05": 0.7595674881447798,
+      "p95": 1.0519152461676688,
+      "q1": 0.8601083823663207,
+      "q3": 0.9823802893416231
+    },
+    "random_exposure_summary": {
+      "maximum": 1.0978396618063546,
+      "median": 0.8601452979947499,
+      "minimum": 0.4367352607324074,
+      "p05": 0.6366273406178926,
+      "p95": 0.9971371323443388,
+      "q1": 0.7743758071897027,
+      "q3": 0.9276403340006297
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9980378630914891,
+      "median": 0.923379875006194,
+      "minimum": 0.6965257773412639,
+      "p05": 0.8243160838697604,
+      "p95": 0.9812415391027469,
+      "q1": 0.8863628531460376,
+      "q3": 0.951254082560004
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.059577366392702086,
+    "retained_exposure": 0.032418974905618195,
+    "retained_movement_energy": 0.5441491772551622,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 5,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.3102900226237557,
+      "median": 0.9360750904167812,
+      "minimum": 0.45741486303263507,
+      "p05": 0.7074200594703175,
+      "p95": 1.1119313561456308,
+      "q1": 0.8515309354115131,
+      "q3": 1.005249982392298
+    },
+    "random_exposure_summary": {
+      "maximum": 1.1465169254492518,
+      "median": 0.8635172064848152,
+      "minimum": 0.3282153733168616,
+      "p05": 0.6092671029621883,
+      "p95": 1.0363433707369545,
+      "q1": 0.7723134898015729,
+      "q3": 0.9429706784671087
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.003,
+    "random_movement_summary": {
+      "maximum": 0.9969901186749477,
+      "median": 0.9241988413629084,
+      "minimum": 0.6244886972953365,
+      "p05": 0.8252530688260512,
+      "p95": 0.9778171409135659,
+      "q1": 0.8889931421251455,
+      "q3": 0.9535583545933605
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.1152225935330786,
+    "retained_exposure": 0.08284071113945492,
+    "retained_movement_energy": 0.7189623892268372,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 10,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.4622108510233,
+      "median": 0.9441068822083717,
+      "minimum": 0.32809689143157583,
+      "p05": 0.6658106248305102,
+      "p95": 1.1888598224780311,
+      "q1": 0.8394234538798586,
+      "q3": 1.0319958624308576
+    },
+    "random_exposure_summary": {
+      "maximum": 1.318374633708514,
+      "median": 0.8681204226096776,
+      "minimum": 0.24319937966100108,
+      "p05": 0.5805617963835881,
+      "p95": 1.1050993211347957,
+      "q1": 0.7617204743505608,
+      "q3": 0.9636020807332023
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.031,
+    "random_movement_summary": {
+      "maximum": 0.9956570152011733,
+      "median": 0.9238976542921716,
+      "minimum": 0.5843402579143272,
+      "p05": 0.8291057927437996,
+      "p95": 0.9793734727396859,
+      "q1": 0.8887075412440817,
+      "q3": 0.9522499483653749
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.1776359787442574,
+    "retained_exposure": 0.14476472028548845,
+    "retained_movement_energy": 0.814951572923784,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 30,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.5827939772647206,
+      "median": 0.9476121001785656,
+      "minimum": 0.33692723949428643,
+      "p05": 0.6528730887655946,
+      "p95": 1.256504657133632,
+      "q1": 0.8385167862936191,
+      "q3": 1.0582564318610408
+    },
+    "random_exposure_summary": {
+      "maximum": 1.4529010331813688,
+      "median": 0.8832324483118524,
+      "minimum": 0.21841920745450855,
+      "p05": 0.5784352068591294,
+      "p95": 1.15316600805867,
+      "q1": 0.7607313833705276,
+      "q3": 0.9758000736014926
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.116,
+    "random_movement_summary": {
+      "maximum": 0.99701405863836,
+      "median": 0.9237287972722361,
+      "minimum": 0.6482681773736861,
+      "p05": 0.8259883328937603,
+      "p95": 0.9802287988215319,
+      "q1": 0.8902877820518835,
+      "q3": 0.95249462888066
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.22320816171618632,
+    "retained_exposure": 0.19187058542088872,
+    "retained_movement_energy": 0.8596038063556836,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 60,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.6828741181017588,
+      "median": 0.9450075168369763,
+      "minimum": 0.3762185084976993,
+      "p05": 0.6524550680309028,
+      "p95": 1.2300277039933485,
+      "q1": 0.831266071571499,
+      "q3": 1.0508281232681367
+    },
+    "random_exposure_summary": {
+      "maximum": 1.437539468989372,
+      "median": 0.878993884776399,
+      "minimum": 0.26196146804380865,
+      "p05": 0.5803777557589233,
+      "p95": 1.149165836608181,
+      "q1": 0.7591321582347835,
+      "q3": 0.9760223126522771
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.061,
+    "random_movement_summary": {
+      "maximum": 0.9983027812294544,
+      "median": 0.9248092870742829,
+      "minimum": 0.6787238028804075,
+      "p05": 0.8272720128500998,
+      "p95": 0.979251118998425,
+      "q1": 0.8931835996202382,
+      "q3": 0.9526275042110689
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.1961037349850015,
+    "retained_exposure": 0.1635805816702472,
+    "retained_movement_energy": 0.8341533203473063,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 1,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.1727086614972195,
+      "median": 0.9332200784081255,
+      "minimum": 0.5410300437594101,
+      "p05": 0.7640217380395709,
+      "p95": 1.0567103372855309,
+      "q1": 0.857518861747461,
+      "q3": 0.9848803005719191
+    },
+    "random_exposure_summary": {
+      "maximum": 1.0938605379612358,
+      "median": 0.8599999851691233,
+      "minimum": 0.4143926290577729,
+      "p05": 0.636876690840648,
+      "p95": 0.9970169851154935,
+      "q1": 0.7754937779437557,
+      "q3": 0.9299688815317778
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9980378630914891,
+      "median": 0.923379875006194,
+      "minimum": 0.6965257773412639,
+      "p05": 0.8243160838697604,
+      "p95": 0.9812415391027469,
+      "q1": 0.8863628531460376,
+      "q3": 0.951254082560004
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.06505422446458992,
+    "retained_exposure": 0.034872047432362066,
+    "retained_movement_energy": 0.5360458558897048,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 5,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.3403064176845785,
+      "median": 0.9328293493240866,
+      "minimum": 0.4548764237207185,
+      "p05": 0.7081549678584276,
+      "p95": 1.116664699402672,
+      "q1": 0.8496438488291249,
+      "q3": 1.0074569006860263
+    },
+    "random_exposure_summary": {
+      "maximum": 1.1506498916243737,
+      "median": 0.8628154774371801,
+      "minimum": 0.32639393095952507,
+      "p05": 0.605226926236363,
+      "p95": 1.0371350763016742,
+      "q1": 0.7748408147027793,
+      "q3": 0.945219946109342
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.002,
+    "random_movement_summary": {
+      "maximum": 0.9969901186749477,
+      "median": 0.9241988413629084,
+      "minimum": 0.6244886972953365,
+      "p05": 0.8252530688260512,
+      "p95": 0.9778171409135659,
+      "q1": 0.8889931421251455,
+      "q3": 0.9535583545933605
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.11358566115497847,
+    "retained_exposure": 0.07999371640819795,
+    "retained_movement_energy": 0.7042589319355459,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 10,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.4785605175993082,
+      "median": 0.9424312091043632,
+      "minimum": 0.3377972890789441,
+      "p05": 0.6693819623026095,
+      "p95": 1.1992352917618418,
+      "q1": 0.837891722470893,
+      "q3": 1.0327736904174512
+    },
+    "random_exposure_summary": {
+      "maximum": 1.3050300342736272,
+      "median": 0.8685314573845601,
+      "minimum": 0.250389727244032,
+      "p05": 0.5837805605321004,
+      "p95": 1.1059286226332359,
+      "q1": 0.7618182773295344,
+      "q3": 0.9630328328457656
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.024,
+    "random_movement_summary": {
+      "maximum": 0.9956570152011733,
+      "median": 0.9238976542921716,
+      "minimum": 0.5843402579143272,
+      "p05": 0.8291057927437996,
+      "p95": 0.9793734727396859,
+      "q1": 0.8887075412440817,
+      "q3": 0.9522499483653749
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.19766118618507625,
+    "retained_exposure": 0.16013001936131296,
+    "retained_movement_energy": 0.8101237397785231,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 30,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.5344915298676851,
+      "median": 0.9501055710595675,
+      "minimum": 0.35376947171849676,
+      "p05": 0.6424767639161804,
+      "p95": 1.2747663853933529,
+      "q1": 0.8291060865885358,
+      "q3": 1.0629390624724233
+    },
+    "random_exposure_summary": {
+      "maximum": 1.4298457458686948,
+      "median": 0.8846102109790622,
+      "minimum": 0.22933749064140171,
+      "p05": 0.573500656371025,
+      "p95": 1.1677278475062516,
+      "q1": 0.7556396385467877,
+      "q3": 0.9814336929586821
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.128,
+    "random_movement_summary": {
+      "maximum": 0.99701405863836,
+      "median": 0.9237287972722361,
+      "minimum": 0.6482681773736861,
+      "p05": 0.8259883328937603,
+      "p95": 0.9802287988215319,
+      "q1": 0.8902877820518835,
+      "q3": 0.95249462888066
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.259994100554664,
+    "retained_exposure": 0.22421271476900057,
+    "retained_movement_energy": 0.8623761627308911,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 60,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.6311323696180673,
+      "median": 0.9461014832259464,
+      "minimum": 0.41135196816871566,
+      "p05": 0.6542569107702672,
+      "p95": 1.2546239170320403,
+      "q1": 0.829093053201177,
+      "q3": 1.0541036620186524
+    },
+    "random_exposure_summary": {
+      "maximum": 1.4171936676696968,
+      "median": 0.8799086053727552,
+      "minimum": 0.28642494462721463,
+      "p05": 0.5806492819208916,
+      "p95": 1.1528957287852377,
+      "q1": 0.7570213159282474,
+      "q3": 0.979334717805066
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.1,
+    "random_movement_summary": {
+      "maximum": 0.9983027812294544,
+      "median": 0.9248092870742829,
+      "minimum": 0.6787238028804075,
+      "p05": 0.8272720128500998,
+      "p95": 0.979251118998425,
+      "q1": 0.8931835996202382,
+      "q3": 0.9526275042110689
+    },
+    "rank": 5,
+    "retained_directional_sensitivity": 0.2245140615776969,
+    "retained_exposure": 0.19175079617535074,
+    "retained_movement_energy": 0.8540703189274055,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 1,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.1977390533590702,
+      "median": 0.8582657209950719,
+      "minimum": 0.49011701720059553,
+      "p05": 0.6392492754467705,
+      "p95": 1.0300754725385988,
+      "q1": 0.7706553935995124,
+      "q3": 0.932006507135759
+    },
+    "random_exposure_summary": {
+      "maximum": 1.060564983802873,
+      "median": 0.7245167455299895,
+      "minimum": 0.29614322529316167,
+      "p05": 0.4680023839549371,
+      "p95": 0.9105709498618338,
+      "q1": 0.6196244503276258,
+      "q3": 0.8032230929667987
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9782694407969418,
+      "median": 0.8437809872051498,
+      "minimum": 0.5795024097500688,
+      "p05": 0.7044670121004307,
+      "p95": 0.9281643740361596,
+      "q1": 0.7939414228468683,
+      "q3": 0.8837273164353956
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.03689000067254821,
+    "retained_exposure": 0.01451909945467916,
+    "retained_movement_energy": 0.39357818351799556,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 5,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.3694293616182611,
+      "median": 0.8627133742616524,
+      "minimum": 0.3761201640555965,
+      "p05": 0.5932320857319938,
+      "p95": 1.1048514180646674,
+      "q1": 0.7645181957495721,
+      "q3": 0.9597205915254742
+    },
+    "random_exposure_summary": {
+      "maximum": 1.1611828313715347,
+      "median": 0.7293396984548053,
+      "minimum": 0.2304063660998652,
+      "p05": 0.45341569134288734,
+      "p95": 0.9535783339633883,
+      "q1": 0.6193990045554757,
+      "q3": 0.8247139815433606
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9735313778243819,
+      "median": 0.8413808817102739,
+      "minimum": 0.6089085548758579,
+      "p05": 0.717752400811764,
+      "p95": 0.9245376806067969,
+      "q1": 0.7949371954525523,
+      "q3": 0.8828288496834493
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.06338544576511955,
+    "retained_exposure": 0.029983760322214798,
+    "retained_movement_energy": 0.47303856524607096,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 10,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.5811372527723855,
+      "median": 0.8712984656695203,
+      "minimum": 0.29901799795460554,
+      "p05": 0.5527501931568558,
+      "p95": 1.2289115140636055,
+      "q1": 0.7354748354104694,
+      "q3": 1.0002576804533256
+    },
+    "random_exposure_summary": {
+      "maximum": 1.341100579891931,
+      "median": 0.7359469208885507,
+      "minimum": 0.2066452991964553,
+      "p05": 0.4182283454904709,
+      "p95": 1.050926883246756,
+      "q1": 0.6038253797919916,
+      "q3": 0.8638431460134066
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9767359190451856,
+      "median": 0.8413659992664081,
+      "minimum": 0.5897525865302008,
+      "p05": 0.7128147090276936,
+      "p95": 0.9331517651430425,
+      "q1": 0.7881623755048937,
+      "q3": 0.8800221801600978
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.08857029275159041,
+    "retained_exposure": 0.04979620831753087,
+    "retained_movement_energy": 0.5622224650108397,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 30,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.973129616579542,
+      "median": 0.8719124826623668,
+      "minimum": 0.29716456104298405,
+      "p05": 0.5165200671293545,
+      "p95": 1.3310165031318242,
+      "q1": 0.7292261198463188,
+      "q3": 1.0465117615968171
+    },
+    "random_exposure_summary": {
+      "maximum": 1.4569560486189839,
+      "median": 0.7383637307913014,
+      "minimum": 0.21410003235263364,
+      "p05": 0.4015120912735228,
+      "p95": 1.1225540544335526,
+      "q1": 0.5973618401551225,
+      "q3": 0.8888584639488513
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.008,
+    "random_movement_summary": {
+      "maximum": 0.9710038510793942,
+      "median": 0.8393255134509494,
+      "minimum": 0.5234704586611542,
+      "p05": 0.7117393529968362,
+      "p95": 0.9288112991017924,
+      "q1": 0.7896192950779042,
+      "q3": 0.8816388492575725
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.11518441876276618,
+    "retained_exposure": 0.07385405389854456,
+    "retained_movement_energy": 0.6411809400250078,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 60,
+    "evaluation_subset": 2,
+    "random_directional_summary": {
+      "maximum": 1.8496160294241346,
+      "median": 0.8699875353867221,
+      "minimum": 0.295371337172302,
+      "p05": 0.5220953243628423,
+      "p95": 1.2888423351440275,
+      "q1": 0.7246949374578073,
+      "q3": 1.0438443826247408
+    },
+    "random_exposure_summary": {
+      "maximum": 1.434488685045263,
+      "median": 0.7348714570237831,
+      "minimum": 0.21445505681876995,
+      "p05": 0.3965661307816602,
+      "p95": 1.091209375335913,
+      "q1": 0.5944607276766156,
+      "q3": 0.8845806437010928
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.012,
+    "random_movement_summary": {
+      "maximum": 0.9671745208598125,
+      "median": 0.8407812096911538,
+      "minimum": 0.5395065565922018,
+      "p05": 0.712350141521317,
+      "p95": 0.9271576365710608,
+      "q1": 0.7902084750939598,
+      "q3": 0.8806513376080456
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.11394518877537137,
+    "retained_exposure": 0.07589391392356164,
+    "retained_movement_energy": 0.666056327074739,
+    "selected_subset": 1
+  },
+  {
+    "epoch": 1,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.223555246631499,
+      "median": 0.8591654645933919,
+      "minimum": 0.4679469045319454,
+      "p05": 0.629602266460449,
+      "p95": 1.0329398316833016,
+      "q1": 0.77030615062557,
+      "q3": 0.9362196453679568
+    },
+    "random_exposure_summary": {
+      "maximum": 1.0458246117629209,
+      "median": 0.7234432473789721,
+      "minimum": 0.31909272248082116,
+      "p05": 0.4684969069058144,
+      "p95": 0.9151431414964435,
+      "q1": 0.6230891216940003,
+      "q3": 0.8028251012953498
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9782694407969418,
+      "median": 0.8437809872051498,
+      "minimum": 0.5795024097500688,
+      "p05": 0.7044670121004307,
+      "p95": 0.9281643740361596,
+      "q1": 0.7939414228468683,
+      "q3": 0.8837273164353956
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.042343809409435336,
+    "retained_exposure": 0.01730715146570784,
+    "retained_movement_energy": 0.40872920285370784,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 5,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.3566107524703128,
+      "median": 0.8643282397928391,
+      "minimum": 0.37928493819842807,
+      "p05": 0.5947956690990627,
+      "p95": 1.11410431278772,
+      "q1": 0.7647228991656789,
+      "q3": 0.9605504016657678
+    },
+    "random_exposure_summary": {
+      "maximum": 1.1673032619588282,
+      "median": 0.7298233290679061,
+      "minimum": 0.23277955510513193,
+      "p05": 0.45595928009936687,
+      "p95": 0.9650000298904979,
+      "q1": 0.6166527187847947,
+      "q3": 0.8217095861533036
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.0,
+    "random_movement_summary": {
+      "maximum": 0.9735313778243819,
+      "median": 0.8413808817102739,
+      "minimum": 0.6089085548758579,
+      "p05": 0.717752400811764,
+      "p95": 0.9245376806067969,
+      "q1": 0.7949371954525523,
+      "q3": 0.8828288496834493
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.0672387003688732,
+    "retained_exposure": 0.03028546055843979,
+    "retained_movement_energy": 0.4504171019411886,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 10,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 1.6229232669396152,
+      "median": 0.8711055613687657,
+      "minimum": 0.2792041868822003,
+      "p05": 0.5458612784568306,
+      "p95": 1.2462500979260098,
+      "q1": 0.7402856989652908,
+      "q3": 1.0103005112318226
+    },
+    "random_exposure_summary": {
+      "maximum": 1.3654861349875467,
+      "median": 0.7301268773475973,
+      "minimum": 0.19295237453878705,
+      "p05": 0.4174898981812896,
+      "p95": 1.0622969612213875,
+      "q1": 0.6057479594198673,
+      "q3": 0.8637080512737703
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.002,
+    "random_movement_summary": {
+      "maximum": 0.9767359190451856,
+      "median": 0.8413659992664081,
+      "minimum": 0.5897525865302008,
+      "p05": 0.7128147090276936,
+      "p95": 0.9331517651430425,
+      "q1": 0.7881623755048937,
+      "q3": 0.8800221801600978
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.13350993744329645,
+    "retained_exposure": 0.08077002032251815,
+    "retained_movement_energy": 0.6049738459118243,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 30,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 2.21131103638961,
+      "median": 0.8800615154477495,
+      "minimum": 0.2581556913473862,
+      "p05": 0.5074970232863891,
+      "p95": 1.382485801648164,
+      "q1": 0.7247255622019949,
+      "q3": 1.0519990244668622
+    },
+    "random_exposure_summary": {
+      "maximum": 1.5492726462896285,
+      "median": 0.7355577294485152,
+      "minimum": 0.18448639250053395,
+      "p05": 0.39387968480132374,
+      "p95": 1.147640427631687,
+      "q1": 0.5966184158885955,
+      "q3": 0.8931370640820485
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.049,
+    "random_movement_summary": {
+      "maximum": 0.9710038510793942,
+      "median": 0.8393255134509494,
+      "minimum": 0.5234704586611542,
+      "p05": 0.7117393529968362,
+      "p95": 0.9288112991017924,
+      "q1": 0.7896192950779042,
+      "q3": 0.8816388492575725
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.1919951671096956,
+    "retained_exposure": 0.13653230386156628,
+    "retained_movement_energy": 0.7111236491883108,
+    "selected_subset": 2
+  },
+  {
+    "epoch": 60,
+    "evaluation_subset": 1,
+    "random_directional_summary": {
+      "maximum": 2.038214480091457,
+      "median": 0.8767327843284254,
+      "minimum": 0.24628572689526043,
+      "p05": 0.5092149190671992,
+      "p95": 1.3123093414141545,
+      "q1": 0.7250626880281974,
+      "q3": 1.0478365711164817
+    },
+    "random_exposure_summary": {
+      "maximum": 1.4066439074984611,
+      "median": 0.7387714474857876,
+      "minimum": 0.17125551119785995,
+      "p05": 0.39821889705097047,
+      "p95": 1.1150605296441922,
+      "q1": 0.5950845632564226,
+      "q3": 0.8920337838243387
+    },
+    "random_fraction_directional_less_or_equal": 0.0,
+    "random_fraction_exposure_less_or_equal": 0.0,
+    "random_fraction_movement_less_or_equal": 0.023,
+    "random_movement_summary": {
+      "maximum": 0.9671745208598125,
+      "median": 0.8407812096911538,
+      "minimum": 0.5395065565922018,
+      "p05": 0.712350141521317,
+      "p95": 0.9271576365710608,
+      "q1": 0.7902084750939598,
+      "q3": 0.8806513376080456
+    },
+    "rank": 10,
+    "retained_directional_sensitivity": 0.15820931590071075,
+    "retained_exposure": 0.10814759175963853,
+    "retained_movement_energy": 0.6835728423698513,
+    "selected_subset": 2
+  }
+]

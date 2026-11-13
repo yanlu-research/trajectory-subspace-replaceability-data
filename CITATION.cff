@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this numerical evidence release when using these records."
+type: dataset
+title: "Training trajectory subspace replaceability numerical evidence"
+version: 0.1.0
+date-released: 2026-11-13
+authors:
+  - family-names: Lu
+    given-names: Yan
+    orcid: "https://orcid.org/0009-0004-0940-0024"
+  - family-names: Gong
+    given-names: Jiaqi
+repository-code: "https://github.com/yan-ai-phd/trajectory-subspace-replaceability-data"

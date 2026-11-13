@@ -1,0 +1,243 @@
+{
+  "anchor_fingerprint": "7f3b1864026e324a23131e11a864b21cd8de5cd09f74d6c3eb925411a9512a5b",
+  "base_revision": "909b15a234d6420957d91488554e6052a1d3603b",
+  "basis_reconstruction": false,
+  "historical_arm_reruns": false,
+  "seeds": [
+    2026092301,
+    2026092302,
+    2026092303
+  ],
+  "source_identities": {
+    "artifacts/manifold_trajectory_analysis/exp018_conventional/preflight/registered-60-epoch-schedule.pt": "195306ffb226a93d90773c580228f07b0198b76d9c46f964092f0f173f24b47a",
+    "artifacts/manifold_trajectory_analysis/exp027_dataset_driven_matched/fashion_mnist/matrices/conventional_trajectory.npz": "cfd93478cebe32c07e7b1353d90ad63b91bf8f8e0a1239197553e6b279b62fc8",
+    "artifacts/manifold_trajectory_analysis/exp027_dataset_driven_matched/fashion_mnist/scientific-state/epoch-060.pt": "92cf9bf9a912a79ab4c35461c1ef664f3d2240f6b61939434e89ed0b6c83b30d",
+    "docs/2026-09-23-head-preserving-tail-replacement-spec.md": "ddd9ed9f7c6bb99e8063cab81d9f810a0cbc4b2d4610bcf6a056ea44f8572ad8",
+    "results/head-preserving-tail-replacement-preflight-20260923/basis-2026092301.npy": "7c477d6d4323e7d3236dcf6a19727edf17bfa02dc6ea2a8386b12e05652892be",
+    "results/head-preserving-tail-replacement-preflight-20260923/basis-2026092302.npy": "2eebe419885db37d38b0a57c790edb844f010c8143662603bdf636d4b46d3841",
+    "results/head-preserving-tail-replacement-preflight-20260923/basis-2026092303.npy": "72bf8fe7a322dc099b28e99fff66764905f824f94c5270b0aeae9b725c44338f",
+    "results/head-preserving-tail-replacement-preflight-20260923/independent-audit.json": "c886283cab7fdccd46b13a20605ba3f4ca73fd27b3769ed7ea4a5397a75e6bb2",
+    "results/head-preserving-tail-replacement-preflight-20260923/preflight.json": "0193462c3ff9f7bba65e5b0941551057f1cd545b29c9f37e6153b1899e163f15",
+    "results/prior-task-compact-subspace-20260915/frozen-fashion-bases.npz": "e3740c63445ea31e1fe054cbfd33dfa011251003a3a6eefe50056b6e29f80aca",
+    "results/prior-task-compact-subspace-20260915/metrics.csv": "59f2f93565b64cfeac2e2411b663604e34ad3cfd281df69acc83497daeb682db",
+    "src/cnn2_target.py": "3a14a766e745c16d7d23b681fd3d328253d5529abbb4f2e073730cf479b27a0a",
+    "src/exp010_clean_mechanism_check.py": "8da0d5aa97959584a7c354f4a2cce3a6501b67a5620e2847539cfc1589a585b1",
+    "src/exp011_full_mnist_task_only_comparison.py": "c44ef63b1c81ed99675a4b01de2204eb6a6e903cb1b0faf3206828f4f1a8e3ee",
+    "src/exp027_dataset_driven_matched_trajectory_collection.py": "564bd46be4742865d40ee69e773bc361694e03580664a20f4a90c625cc708ddd",
+    "src/head_preserving_tail_adaptation.py": "29b1d929f9d5740f5696b7bf92f283ee877968618a6e113201b114f22427336f",
+    "src/head_preserving_tail_preflight.py": "e5aa81b69bd9788ef86ee6c9b369148328634130d40702c48f91bf0ffa833d6b",
+    "src/prior_task_compact_subspace.py": "42c35c10b95e6245e8511e3db4b6ac6ba6c7c27774338eb5f0f0f6530ca81797",
+    "src/tensor_matched_random_control.py": "e56864244918702e1f405d33355f26682acc219acebb5813b0e83980e90d8f8d",
+    "uv.lock": "12c7ac7b08a1f11f7af22e03bf17d9906e774d5ae79df76360c2016584ead653"
+  },
+  "target_inputs": {
+    "dataset_checks": {
+      "fashion": {
+        "preprocessing_common_exact": true,
+        "raw_resources_present": true,
+        "ten_classes_exact": true,
+        "test_shape_exact": true,
+        "test_size_exact": true,
+        "train_shape_exact": true,
+        "train_size_exact": true,
+        "uint8_images_exact": true
+      },
+      "kmnist": {
+        "preprocessing_common_exact": true,
+        "raw_resources_present": true,
+        "ten_classes_exact": true,
+        "test_shape_exact": true,
+        "test_size_exact": true,
+        "train_shape_exact": true,
+        "train_size_exact": true,
+        "uint8_images_exact": true
+      }
+    },
+    "dataset_constructor_audit": [
+      {
+        "dataset": "fashion_mnist",
+        "download": false,
+        "root": "RESEARCH_REPO/data",
+        "split": "train"
+      },
+      {
+        "dataset": "fashion_mnist",
+        "download": false,
+        "root": "RESEARCH_REPO/data",
+        "split": "test"
+      },
+      {
+        "dataset": "kmnist",
+        "download": false,
+        "root": "RESEARCH_REPO/data",
+        "split": "train"
+      },
+      {
+        "dataset": "kmnist",
+        "download": false,
+        "root": "RESEARCH_REPO/data",
+        "split": "test"
+      }
+    ],
+    "fashion": {
+      "test": {
+        "class_count": 10,
+        "data_fingerprint": "8368eaa99bd0d64c94a78bbce7c436c99f5e1a9819eb2be0ba1480b72dcaa5c5",
+        "dataset_key": "fashion_mnist",
+        "dataset_label": "Fashion-MNIST",
+        "image_dtype": "torch.uint8",
+        "image_shape": [
+          10000,
+          28,
+          28
+        ],
+        "image_tensor_fingerprint": "45e081551a66917f0d839d98d307f2f4695d1167cc0452bdbb6b4a2867761d1b",
+        "preprocessing": "uint8_to_float32_add_channel_divide_255_no_augmentation",
+        "raw_resource_sha256": {
+          "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+          "t10k-images-idx3-ubyte.gz": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+          "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+          "t10k-labels-idx1-ubyte.gz": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+          "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+          "train-images-idx3-ubyte.gz": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+          "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+          "train-labels-idx1-ubyte.gz": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+        },
+        "sample_count": 10000,
+        "split": "test",
+        "target_dtype": "torch.int64",
+        "target_shape": [
+          10000
+        ],
+        "target_tensor_fingerprint": "699c341d433dc63ec99de6e7f2232211b69a5a4a35fce33015afb76f9987e165",
+        "torchvision_class": "FashionMNIST",
+        "torchvision_version": "0.27.1"
+      },
+      "train": {
+        "class_count": 10,
+        "data_fingerprint": "32828bae3cda0a6d75dfc9accd8ee7937e7ec177e4b2b4bc07fe558ca3b756b8",
+        "dataset_key": "fashion_mnist",
+        "dataset_label": "Fashion-MNIST",
+        "image_dtype": "torch.uint8",
+        "image_shape": [
+          60000,
+          28,
+          28
+        ],
+        "image_tensor_fingerprint": "c6487bfc6b8891f4dd4de9db342947ef1d00fabd5c48cfb7cd81b84c68e3bafd",
+        "preprocessing": "uint8_to_float32_add_channel_divide_255_no_augmentation",
+        "raw_resource_sha256": {
+          "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+          "t10k-images-idx3-ubyte.gz": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+          "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+          "t10k-labels-idx1-ubyte.gz": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+          "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+          "train-images-idx3-ubyte.gz": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+          "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+          "train-labels-idx1-ubyte.gz": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+        },
+        "sample_count": 60000,
+        "split": "train",
+        "target_dtype": "torch.int64",
+        "target_shape": [
+          60000
+        ],
+        "target_tensor_fingerprint": "736b5b13a143a9f155d67ad3d43d825437b85b3dab65ecf8688c756bbeb91cb6",
+        "torchvision_class": "FashionMNIST",
+        "torchvision_version": "0.27.1"
+      }
+    },
+    "kmnist": {
+      "test": {
+        "class_count": 10,
+        "data_fingerprint": "b1d2abe51b478feda802071d4aa3e368c39591788133d3e280458aba823fca88",
+        "dataset_key": "kmnist",
+        "dataset_label": "KMNIST",
+        "image_dtype": "torch.uint8",
+        "image_shape": [
+          10000,
+          28,
+          28
+        ],
+        "image_tensor_fingerprint": "556477eea15928687c53a7916ca992d5eecbf4e6764bee07a6c74254d32df842",
+        "preprocessing": "uint8_to_float32_add_channel_divide_255_no_augmentation",
+        "raw_resource_sha256": {
+          "t10k-images-idx3-ubyte": "76fbd229ce87db80dd281af5e6670de4ad0e42fb30a7bd643972994c47c1f42e",
+          "t10k-images-idx3-ubyte.gz": "edd7a857845ad6bb1d0ba43fe7e794d164fe2dce499a1694695a792adfac43c5",
+          "t10k-labels-idx1-ubyte": "a11dc742be8e781a40a92f53d6a4957e7b7d36df2faa097659131ebfd8fd60c6",
+          "t10k-labels-idx1-ubyte.gz": "20bb9a0ef54c7db3efc55a92eef5582c109615df22683c380526788f98e42a1c",
+          "train-images-idx3-ubyte": "7112ba9ec422d98de4885262d4a4dff14cc4fefb81c11ace8bf563a8255df5c3",
+          "train-images-idx3-ubyte.gz": "51467d22d8cc72929e2a028a0428f2086b092bb31cfb79c69cc0a90ce135fde4",
+          "train-labels-idx1-ubyte": "2a16eeae62da984b8bd24fa32e31d47291f01dac3fe84d5594f304f71e7d374b",
+          "train-labels-idx1-ubyte.gz": "e38f9ebcd0f3ebcdec7fc8eabdcdaef93bb0df8ea12bee65224341c8183d8e17"
+        },
+        "sample_count": 10000,
+        "split": "test",
+        "target_dtype": "torch.int64",
+        "target_shape": [
+          10000
+        ],
+        "target_tensor_fingerprint": "3a32bfaaecc0a60edea580d7687bbb5751376f20fb62ad0b98e0b511bd52d2ff",
+        "torchvision_class": "KMNIST",
+        "torchvision_version": "0.27.1"
+      },
+      "train": {
+        "class_count": 10,
+        "data_fingerprint": "7b0589ef96f52f3a117c734644d327cf5f01476032d7925ad05199ece651a802",
+        "dataset_key": "kmnist",
+        "dataset_label": "KMNIST",
+        "image_dtype": "torch.uint8",
+        "image_shape": [
+          60000,
+          28,
+          28
+        ],
+        "image_tensor_fingerprint": "68de4737257e254cda4ea34a354fc0c8f280c3e5ad08d8205d05e338618f63ea",
+        "preprocessing": "uint8_to_float32_add_channel_divide_255_no_augmentation",
+        "raw_resource_sha256": {
+          "t10k-images-idx3-ubyte": "76fbd229ce87db80dd281af5e6670de4ad0e42fb30a7bd643972994c47c1f42e",
+          "t10k-images-idx3-ubyte.gz": "edd7a857845ad6bb1d0ba43fe7e794d164fe2dce499a1694695a792adfac43c5",
+          "t10k-labels-idx1-ubyte": "a11dc742be8e781a40a92f53d6a4957e7b7d36df2faa097659131ebfd8fd60c6",
+          "t10k-labels-idx1-ubyte.gz": "20bb9a0ef54c7db3efc55a92eef5582c109615df22683c380526788f98e42a1c",
+          "train-images-idx3-ubyte": "7112ba9ec422d98de4885262d4a4dff14cc4fefb81c11ace8bf563a8255df5c3",
+          "train-images-idx3-ubyte.gz": "51467d22d8cc72929e2a028a0428f2086b092bb31cfb79c69cc0a90ce135fde4",
+          "train-labels-idx1-ubyte": "2a16eeae62da984b8bd24fa32e31d47291f01dac3fe84d5594f304f71e7d374b",
+          "train-labels-idx1-ubyte.gz": "e38f9ebcd0f3ebcdec7fc8eabdcdaef93bb0df8ea12bee65224341c8183d8e17"
+        },
+        "sample_count": 60000,
+        "split": "train",
+        "target_dtype": "torch.int64",
+        "target_shape": [
+          60000
+        ],
+        "target_tensor_fingerprint": "75ad32690e631b5fe039c18994e26625ae68b53de91ba9963c97f976b78a92be",
+        "torchvision_class": "KMNIST",
+        "torchvision_version": "0.27.1"
+      }
+    },
+    "schedule": {
+      "checks": {
+        "dtype": true,
+        "permutations": true,
+        "shape": true
+      },
+      "fingerprint": "c64c70d83a316417f397c2fe481f12c4796e4960e0895950652c5371334eae57",
+      "path": "artifacts/manifold_trajectory_analysis/exp018_conventional/preflight/registered-60-epoch-schedule.pt",
+      "sha256": "195306ffb226a93d90773c580228f07b0198b76d9c46f964092f0f173f24b47a"
+    }
+  },
+  "training": {
+    "batch_size": 64,
+    "epochs": 60,
+    "evaluation_epochs": [
+      0,
+      1,
+      5,
+      10,
+      30,
+      60
+    ],
+    "steps_per_epoch": 938,
+    "total_optimizer_steps": 168840
+  }
+}

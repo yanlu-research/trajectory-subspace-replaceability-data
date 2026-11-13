@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "kmnist": "f52a065802228ff6e5809faf2c45b8d12a716ea7f45a634a40cc72f847489380",
+    "mnist": "fd466fb9eddb80607e192406821fc9d4e0ad0364993c22984cf2226917c67028"
+  },
+  "implementation": {
+    "src/reuse_optimizer_replication.py": "9007b6526122fbba3fcfb75cb58acfc192269a98037ec156d58977d750a5df34",
+    "src/cnn2_target.py": "3a14a766e745c16d7d23b681fd3d328253d5529abbb4f2e073730cf479b27a0a",
+    "src/summarize_reuse_optimizer_replication.py": "1340e056409c5bc6ae68494c7273204216d5e352679d98b0a9ecd87bf00982a3",
+    "src/prior_task_compact_subspace.py": "42c35c10b95e6245e8511e3db4b6ac6ba6c7c27774338eb5f0f0f6530ca81797",
+    "src/tensor_matched_random_control.py": "e56864244918702e1f405d33355f26682acc219acebb5813b0e83980e90d8f8d",
+    "src/head_preserving_tail_preflight.py": "e5aa81b69bd9788ef86ee6c9b369148328634130d40702c48f91bf0ffa833d6b",
+    "uv.lock": "12c7ac7b08a1f11f7af22e03bf17d9906e774d5ae79df76360c2016584ead653"
+  },
+  "spec_sha256": "18d83b9065c8ac7195c7e16addd18110a040cf11ea41d3a10ffca8e792f73a8d"
+}

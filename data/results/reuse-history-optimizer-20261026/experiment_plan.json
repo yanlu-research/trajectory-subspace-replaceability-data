@@ -1,0 +1,374 @@
+{
+  "plan_id": "reuse-history-optimizer-20261026-v1",
+  "date": "2026-10-26",
+  "spec_sha256": "18d83b9065c8ac7195c7e16addd18110a040cf11ea41d3a10ffca8e792f73a8d",
+  "histories": [
+    {
+      "id": "H1",
+      "source_init_seed": 2026102601,
+      "source_schedule_seed": 2026102611,
+      "whole_draw_seeds": [
+        2398953659,
+        1465093071,
+        1705858561,
+        3656941950,
+        391253170,
+        4115010308,
+        243375310,
+        1568146040,
+        2346324425,
+        480874197
+      ],
+      "partial_draw_seeds": [
+        1267199521,
+        2569431611,
+        865878596
+      ]
+    },
+    {
+      "id": "H2",
+      "source_init_seed": 2026102602,
+      "source_schedule_seed": 2026102612,
+      "whole_draw_seeds": [
+        3406715414,
+        3231964671,
+        112395084,
+        830547230,
+        2431923047,
+        3057563936,
+        2185109056,
+        3256536106,
+        2744441521,
+        1505090155
+      ],
+      "partial_draw_seeds": [
+        3026009873,
+        1662887678,
+        4122159450
+      ]
+    },
+    {
+      "id": "H3",
+      "source_init_seed": 2026102603,
+      "source_schedule_seed": 2026102613,
+      "whole_draw_seeds": [
+        3921468610,
+        1059615950,
+        3362806101,
+        506242937,
+        1060746506,
+        3466987824,
+        3274996736,
+        2792275862,
+        3637186867,
+        4206707172
+      ],
+      "partial_draw_seeds": [
+        1624459797,
+        2205332627,
+        1341362070
+      ]
+    }
+  ],
+  "calibration_history": {
+    "id": "C0",
+    "role": "calibration_only_not_main_replication",
+    "source": "original Fashion-only history A",
+    "basis_source": "artifacts/manifold_trajectory_analysis/exp027_dataset_driven_matched/fashion_mnist/matrices/conventional_trajectory.npz",
+    "anchor_source": "artifacts/manifold_trajectory_analysis/exp027_dataset_driven_matched/fashion_mnist/scientific-state/epoch-060.pt",
+    "whole_seed": 2982033917,
+    "partial_seed": 4228000136,
+    "spaces": [
+      "H20",
+      "HT60",
+      "Wcal",
+      "Pcal"
+    ]
+  },
+  "model": {
+    "class": "ConventionalCNN2",
+    "parameters": 108618,
+    "native_blocks": 8,
+    "reset_classifier": false,
+    "input_transform": "float32 / 255",
+    "augmentation": false
+  },
+  "source_training": {
+    "dataset": "FashionMNIST",
+    "official_split": "train",
+    "samples": 60000,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "epochs": 60,
+    "batch_size": 64,
+    "steps_per_epoch": 938,
+    "snapshots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "scheduler": null
+  },
+  "targets": [
+    {
+      "id": "kmnist",
+      "dataset": "KMNIST",
+      "phase": "B_core",
+      "calibration_split_seed": 1611368382,
+      "calibration_schedule_seed": 2026446501,
+      "main_schedule_seed": 2026102621
+    },
+    {
+      "id": "mnist",
+      "dataset": "MNIST",
+      "phase": "C_extension",
+      "calibration_split_seed": 1587951014,
+      "calibration_schedule_seed": 2190262840,
+      "main_schedule_seed": 2026102622
+    }
+  ],
+  "space_family": {
+    "H20": 1,
+    "HT60": 1,
+    "whole_rank60": 10,
+    "partial_rank60": 3
+  },
+  "basis": {
+    "centered_positions": 61,
+    "construction_dtype": "float64",
+    "persisted_dtype": "float32",
+    "sign_convention": "Largest-absolute entry positive; tie lowest row index",
+    "rank_required": 60,
+    "postcast_global_gram_max": 1e-07,
+    "postcast_native_block_gram_max": 1e-07,
+    "partial_precast_block_gram_max": 1e-10,
+    "partial_head_byte_identity": true,
+    "partial_max_tail_overlap": 0.95,
+    "share_files_across_optimizers_and_targets": true
+  },
+  "backends": {
+    "ambient_adam": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0,
+      "amsgrad": false,
+      "lr_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ]
+    },
+    "projected_sgd": {
+      "momentum": 0,
+      "dampening": 0,
+      "weight_decay": 0,
+      "nesterov": false,
+      "lr_grid": [
+        0.001,
+        0.01,
+        0.1,
+        1,
+        10
+      ]
+    },
+    "coefficient_adam": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0,
+      "amsgrad": false,
+      "lr_grid": [
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        1
+      ],
+      "feasibility": "Engineering decision before scientific runs; never drop based on performance"
+    }
+  },
+  "conditions": {
+    "A0": {
+      "backend": "ambient_adam",
+      "lr": 0.001,
+      "role": "historical_protocol_reference"
+    },
+    "Astar": {
+      "backend": "ambient_adam",
+      "lr": "selected_per_target",
+      "role": "equal_calibration_budget",
+      "alias_A0_if_lr_equals": 0.001
+    },
+    "Sstar": {
+      "backend": "projected_sgd",
+      "lr": "selected_per_target",
+      "role": "equal_calibration_budget"
+    },
+    "Cstar": {
+      "backend": "coefficient_adam",
+      "lr": "selected_per_target",
+      "role": "equal_calibration_budget"
+    }
+  },
+  "calibration": {
+    "train_samples": 54000,
+    "validation_samples": 6000,
+    "split_rule": "np.random.Generator(np.random.PCG64(split_seed)).permutation(60000); first 6000 validation; remainder training",
+    "schedule_rule": "np.random.Generator(np.random.PCG64(schedule_seed)); generate 60 sequential permutations of the ordered training-index array; persist",
+    "epochs": 60,
+    "batch_size": 64,
+    "steps_per_epoch": 844,
+    "score": "mean epoch60 validation CE over four equally weighted representative families",
+    "tie_absolute_tolerance": 1e-10,
+    "tie_break": "smaller_lr",
+    "nonfinite_candidate_score": "infinity, preserve failure",
+    "automatic_extension": "one outward decade only if initial winner is an extreme; max six candidates per backend/target",
+    "all_invalid": "stop calibration, no TEST or improvised optimizer change",
+    "no_early_pruning": true,
+    "freeze_all_targets_before_first_test": true
+  },
+  "main_training": {
+    "train_samples": 60000,
+    "epochs": 60,
+    "batch_size": 64,
+    "steps_per_epoch": 938,
+    "updates": 56280,
+    "schedule_rule": "np.random.Generator(np.random.PCG64(main_schedule_seed)); 60 sequential permutations of arange(60000), shared over histories/spaces/backends for that target",
+    "evaluation_epochs": [
+      0,
+      1,
+      5,
+      10,
+      30,
+      60
+    ],
+    "checkpoint_selection": "fixed epochs only",
+    "reinitialize_from_source_endpoint_per_arm": true,
+    "scheduler": null,
+    "clipping": null,
+    "source_replay": false,
+    "affine_residual_max": 3e-05
+  },
+  "full_parameter_reference": {
+    "per_history_per_target": 1,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "count_as_matched_control": false
+  },
+  "evaluation": {
+    "test_access_in_design": false,
+    "requires_execution_activation": true,
+    "no_test_in_training_or_calibration": true,
+    "test_after_all_lrs_frozen_and_target_block_complete": true,
+    "primary_metric": "epoch60 target_accuracy_percent",
+    "secondary": [
+      "target_ce",
+      "source_accuracy_percent",
+      "source_ce",
+      "fixed_checkpoint_curves",
+      "divergence_counts",
+      "steps",
+      "wall_seconds"
+    ],
+    "no_new_fisher_kl_circuit_metrics": true
+  },
+  "analysis": {
+    "replication_unit": "source_history",
+    "N_histories": 3,
+    "do_not_count_calibration_or_shared_target_as_new_history": true,
+    "family_summary": "mean; also show all draw values, range, median, and partial-over-H20 positive count",
+    "contrasts": [
+      "HT-H",
+      "mean(P)-H",
+      "HT-mean(W)",
+      "mean(P)-mean(W)"
+    ],
+    "interaction": "paired within-history contrast difference relative to Astar; separately A0 vs Astar",
+    "missing_or_failed_family_member": "full-family contrast NA; report failures, do not silently average successful draws",
+    "inference": "descriptive per-history values, equal-history means and ranges; no draw-level p-values or population claims from N=3"
+  },
+  "counts_all_three_backends": {
+    "spaces_per_history": 15,
+    "main_per_target_if_Astar_alias_A0": 135,
+    "main_per_target_if_Astar_distinct": 180,
+    "calibration_initial_per_target": 60,
+    "calibration_max_per_target": 72,
+    "fullW_per_target": 3,
+    "target_runs_min": 198,
+    "target_runs_max": 255,
+    "two_target_runs_min": 396,
+    "two_target_runs_max": 510,
+    "additional_source_runs": 3
+  }
+}
