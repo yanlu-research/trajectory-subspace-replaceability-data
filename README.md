@@ -47,3 +47,7 @@ No additional reuse license has been selected for this initial release. Public a
 ## Research collection
 
 This public numerical evidence package is maintained in [Yan Lu Research](https://github.com/yanlu-research). Each paper has its own repository as needed; the scope of this repository remains the selected results and metadata described above.
+
+## Maintaining this release
+
+Numerical and selected metadata files are exported from recorded internal experiment sources. Corrections should be made in the maintained source and released as a reviewed version; this public package is not an independently edited numerical database. Internal source and export hashes are checked before packaging. Repository documentation and citation metadata are maintained here.
