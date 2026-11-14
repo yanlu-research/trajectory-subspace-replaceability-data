@@ -43,3 +43,7 @@ The experiments use MNIST, Fashion-MNIST and Kuzushiji-MNIST. Dataset images are
 Authors: Yan Lu (ORCID https://orcid.org/0009-0004-0940-0024) and Jiaqi Gong. A journal reference, preprint identifier or archival DOI will be added when available. No journal acceptance is implied.
 
 No additional reuse license has been selected for this initial release. Public availability should not be interpreted as an unrestricted reuse grant. Authors can add a data/code license in a subsequent update.
+
+## Research collection
+
+This public numerical evidence package is maintained in [Yan Lu Research](https://github.com/yanlu-research). Each paper has its own repository as needed; the scope of this repository remains the selected results and metadata described above.
